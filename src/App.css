@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color:darkgrey;
 }
 
 .App-logo {
@@ -12,6 +13,50 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.Name {
+  text-align: center;
+}
+
+.Nav_bar {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0%;
+  border-bottom: solid 1px black;
+  border-top: solid 1px black;
+}
+.Nav {
+  position: relative;
+  display: inline-block;
+  border-left: solid 1px #575d5f;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Sub_bar {
+  padding-left: 0;
+  list-style-type: none;
+  line-height: 20px;
+  display: none;
+  text-align: center;
+ 
+}
+.Sub{
+  background-color: aqua;
+  width: 100px;
+}
+.Nav:hover {
+  background: gray;
+}
+.Nav:hover ul {
+  display: block;
+  position:absolute;
+}
+
+nav ul li:first-child{
+  border-left: none;
+}
+
+
 
 .App-header {
   background-color: #282c34;

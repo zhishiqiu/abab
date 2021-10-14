@@ -1,25 +1,59 @@
-import logo from './logo.svg';
 import './App.css';
+import { render } from '@testing-library/react';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class Name extends Component{
+  render() {
+    return (
+     <h1 className="Name">영화사이트</h1>
+    );
+  }
+}
+
+class Nav extends Component{
+  render() {
+    return (
+      <nav>
+        <ul className="Nav_bar">
+          <li className="Nav"><a href="#">영화</a>
+            <ul className="Sub_bar">
+              <li className="Sub"><a href="#">영화차트</a></li>
+              <li className="Sub"><a href="#">뭐...등등등</a></li>
+            </ul>
+          </li>
+          <li className="Nav"><a href="#">예매</a>
+          <ul className="Sub_bar">
+              <li className="Sub"><a href="#">시간표</a></li>
+              <li className="Sub"><a href="#">상영관</a></li>
+            </ul></li>
+          <li className="Nav"><a href="#">극장</a>
+          <ul className="Sub_bar">
+              <li className="Sub"><a href="#">극장</a></li>
+              <li className="Sub"><a href="#">특별관</a></li>
+            </ul></li> 
+          <li className="Nav"><a href="#">이벤트</a>
+          <ul className="Sub_bar">
+              <li className="Sub"><a href="#">이벤트</a></li>
+              <li className="Sub"><a href="#">기프트샵</a></li>
+            </ul></li> 
+          </ul>
+      </nav>
+    );
+  }
+}
+
+
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+       <Name></Name>
+       <Nav></Nav>
+     </div>
+    )
+  }
 }
 
 export default App;
