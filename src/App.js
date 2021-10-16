@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 class Name extends Component{
   render() {
     return (
-     <h1 className="Name">영화사이트</h1>
+     <h1 className="Name">911 CINEMA</h1>
     );
   }
 }
@@ -43,16 +43,38 @@ class Nav extends Component{
   }
 }
 
-
+class Card extends Component{
+  render() {
+    return (
+      <body>
+        <ul className="Card_list">
+         <li className="Card_name">영화1
+          <li>
+           <img></img>
+          </li>
+          <li className="Movie_name">영화이름</li>
+          <li className="Movie_Country">국가</li>
+           <li className="Grad">예매율 | 평점</li>
+         </li>
+       </ul>
+     </body>
+    );
+  }
+}
 
 class App extends Component {
   render() {
     return (
-      <div>
-       <Name></Name>
-       <Nav></Nav>
+     <div>
+       <header>
+        <Name></Name>
+        <Nav></Nav>
+      </header>
+      <body className="Main">
+        <Card></Card>
+      </body>
      </div>
-    )
+    );
   }
 }
 

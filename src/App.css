@@ -13,24 +13,41 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.Name {
-  text-align: center;
-}
 
+header{
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.19) 0%, rgba(255, 255, 255, 0) 100%);
+  margin: 0%;
+  padding-left: 15%;
+  padding-right: 15%;
+  border-bottom: solid 1px #CBCACA;
+}
+.Name {
+  padding: 1%;
+  margin: 0%;
+  text-align: center;
+  font-size: 36px;
+  color: #d17100;
+  font-family:'Courier New', Courier, monospace;
+  border-bottom: solid 1px #CBCACA;
+}
+/*메뉴*/
 .Nav_bar {
+  margin: 3%;
   list-style-type: none;
   text-align: center;
   padding-left: 0%;
-  border-bottom: solid 1px black;
-  border-top: solid 1px black;
 }
 .Nav {
   position: relative;
   display: inline-block;
-  border-left: solid 1px #575d5f;
+  border-left: solid 1px #CBCACA;
   width: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+nav ul li:first-child{
+  border-left: none;
 }
 .Sub_bar {
   padding-left: 0;
@@ -38,12 +55,12 @@
   line-height: 20px;
   display: none;
   text-align: center;
- 
 }
 .Sub{
   background-color: aqua;
   width: 100px;
 }
+/*오버*/
 .Nav:hover {
   background: gray;
 }
@@ -52,9 +69,25 @@
   position:absolute;
 }
 
-nav ul li:first-child{
-  border-left: none;
+.Main{
+  padding-left: 15%;
+  padding-right: 15%;
 }
+/*영화카드*/
+.Card_list{
+  margin: 0%;
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0%;
+}
+.Card_name{
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 
 
