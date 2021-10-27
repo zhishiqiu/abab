@@ -27,7 +27,7 @@ header{
   margin: 0%;
   text-align: center;
   font-size: 36px;
-  color: #d17100;
+  color: red;
   font-family:'Courier New', Courier, monospace;
   border-bottom: solid 1px #CBCACA;
 }
@@ -60,32 +60,31 @@ nav ul li:first-child{
   background-color: aqua;
   width: 100px;
 }
-/*오버*/
-.Nav:hover {
-  background: gray;
-}
-.Nav:hover ul {
-  display: block;
-  position:absolute;
-}
 
 .Main{
   padding-left: 15%;
   padding-right: 15%;
 }
 /*영화카드*/
-.Card_list{
-  margin: 0%;
+.card_view{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_list{
+  display: flex;
   list-style-type: none;
   text-align: center;
-  padding-left: 0%;
+
 }
-.Card_name{
-  position: relative;
-  display: inline-block;
-  width: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.card_list li{
+  
+}
+.card_list li img{
+  width: 153px;
+  height: 226px;
 }
 
 
@@ -100,6 +99,17 @@ nav ul li:first-child{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+
+
+/*오버*/
+.Nav:hover {
+  background: gray;
+}
+.Nav:hover ul {
+  display: block;
+  position:absolute;
 }
 
 .App-link {
