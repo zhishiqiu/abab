@@ -77,14 +77,29 @@ nav ul li:first-child{
   display: flex;
   list-style-type: none;
   text-align: center;
+  padding: 0%;
 
 }
-.card_list li{
-  
-}
-.card_list li img{
+/*영화 카드 리스트*/
+.movie{
   width: 153px;
   height: 226px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.movie img{
+  position: relative;
+  width: 153px;
+  height: 226px;
+  
+}
+.movie ul{
+  position: absolute;
+  padding: 0%;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
 }
 
 
