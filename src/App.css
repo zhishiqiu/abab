@@ -61,38 +61,41 @@ nav ul li:first-child{
   padding-right : 15%;
 }
 /*영화카드*/
-.card_view{
+.Card_view{
   background-color : black;
   color : white;
   display : flex;
   justify-content : space-evenly;
   align-items : center;
 }
-.card_list{
+.Card_list{
   display : flex;
   list-style-type : none;
   text-align : center;
   padding : 0%;
 }
-.card_list li{
+
+.Card_list li{
   padding-left : 10px;
   padding-right : 10px;
 }
+
 /*영화 카드 리스트*/
-.movie{
+.Movie{
   width : 153px;
   height : 226px;
   display : flex;
   justify-content : center;
   align-items : center;
 }
-.movie img{
+
+.Movie img{
   position : relative;
   width : 153px;
   height : 226px;
   
 }
-.movie ul{
+.Movie ul{
   position : absolute;
   padding : 0%;
   list-style-type : none;
@@ -113,7 +116,7 @@ nav ul li:first-child{
   top : 20px;
 }
 
-.Show{
+.Theater_Show{
   position : relative;
   width : 1000px;
   height : 378px;
@@ -128,7 +131,7 @@ nav ul li:first-child{
   margin : 0 auto;
 }
 
-.Show img{
+.Theater_Show img{
   width : 188px;
   height : 184px;
 }
@@ -143,8 +146,6 @@ nav ul li:first-child{
   font-size : calc(10px + 2vmin);
   color : white;
 }
-
-
 
 /*hover*/
 .Nav:hover {
