@@ -86,7 +86,7 @@ nav ul li:first-child{
   height: 226px;
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 .movie img{
   position: relative;

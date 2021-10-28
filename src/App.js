@@ -16,6 +16,7 @@ class App extends Component {
       </header>
       <body>
         <Card></Card>
+        <Theater></Theater>
       </body>
      </div>
     );
