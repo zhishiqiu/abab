@@ -15,8 +15,8 @@ class Theater extends Component {
             <img src = "#"/>
             <img src = "#"/>
             <img src = "#"/>
-            <img src="#" />
-            <img src="#" />
+            <img src = "#" />
+            <img src = "#" />
         </div>
       </div>
 
