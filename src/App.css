@@ -13,6 +13,7 @@ header{
   padding-right : 15%;
   border-bottom : solid 1px #CBCACA;
 }
+
 .Name {
   padding : 1%;
   margin : 0%;
@@ -22,6 +23,7 @@ header{
   font-family :'Courier New', Courier, monospace;
   border-bottom : solid 1px #CBCACA;
 }
+
 /*메뉴*/
 .Nav_bar {
   margin : 1%;
@@ -29,6 +31,7 @@ header{
   text-align : center;
   padding-left : 0%;
 }
+
 .Nav {
   position : relative;
   display : inline-block;
@@ -38,9 +41,11 @@ header{
   padding-bottom : 10px;
 
 }
+
 nav ul li:first-child{
   border-left : none;
 }
+
 .Sub_bar {
   margin-top : 10px;
   padding-left : 0;
@@ -50,32 +55,36 @@ nav ul li:first-child{
   text-align : center;
   z-index : 1;
 }
+
 .Sub{
   width : 100px;
   height : 20px;
   padding-top : 10px;
   padding-bottom : 10px;
 }
+
 .Main{
   padding-left : 15%;
   padding-right : 15%;
 }
+
 /*영화카드*/
-.Card_view{
+.Card_View{
   background-color : black;
   color : white;
   display : flex;
   justify-content : space-evenly;
   align-items : center;
 }
-.Card_list{
+
+.Card_List{
   display : flex;
   list-style-type : none;
   text-align : center;
   padding : 0%;
 }
 
-.Card_list li{
+.Card_List li{
   padding-left : 10px;
   padding-right : 10px;
 }
@@ -95,6 +104,7 @@ nav ul li:first-child{
   height : 226px;
   
 }
+
 .Movie ul{
   position : absolute;
   padding : 0%;
