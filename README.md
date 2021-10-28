@@ -1,5 +1,3 @@
 # 911Team_Front
 
-~~~
-npm start
-~~~
+유경진, 이효정, 장첨문
